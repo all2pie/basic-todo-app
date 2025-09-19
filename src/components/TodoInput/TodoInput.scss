@@ -1,0 +1,64 @@
+.todo-input {
+  display: flex;
+  margin-bottom: 0.75rem;
+
+  input {
+    flex-grow: 1;
+    padding: 0.5rem 0.75rem;
+    border: 2px solid #007bff;
+    border-radius: 6px 0 0 6px;
+    font-size: 0.95rem;
+    outline-offset: 1px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    font-weight: 500;
+    color: #24292e;
+
+    &::placeholder {
+      color: #a0a0a0;
+      font-weight: 400;
+    }
+
+    &:focus {
+      border-color: #0056b3;
+      box-shadow: 0 0 4px #0056b3aa;
+    }
+  }
+
+  button {
+    padding: 0 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-weight: 700;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background-color 0.2s ease;
+
+    &:disabled {
+      background-color: #9ec5fe;
+      cursor: not-allowed;
+    }
+
+    &:not(:disabled):hover,
+    &:not(:disabled):focus {
+      background-color: #0056b3;
+      outline: none;
+    }
+  }
+}
+
+/* Utility class for visually hidden elements */
+.visually-hidden {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}

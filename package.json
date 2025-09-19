@@ -1,0 +1,42 @@
+{
+  "name": "react-todo-app",
+  "version": "1.0.0",
+  "description": "A beautiful React Todo app built with Vite, TypeScript, and SCSS following clean architecture principles.",
+  "main": "src/main.tsx",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "todo",
+    "typescript",
+    "vite",
+    "scss",
+    "clean-architecture"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/jest": "^29.2.3",
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "jest": "^29.3.1",
+    "sass": "^1.56.1",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0",
+    "@vitejs/plugin-react": "^3.0.0"
+  }
+}

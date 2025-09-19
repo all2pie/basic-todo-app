@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "jsx": "react-jsx",
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": "src",
+    "paths": {
+      "models/*": ["models/*"],
+      "services/*": ["services/*"],
+      "usecases/*": ["usecases/*"],
+      "hooks/*": ["hooks/*"],
+      "components/*": ["components/*"]
+    }
+  },
+  "include": ["src"]
+}
