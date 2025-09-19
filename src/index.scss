@@ -30,6 +30,13 @@ body {
   min-height: 100vh;
 }
 
+/* Scale up typography a bit on larger viewports */
+@media (min-width: 1200px) {
+  body {
+    font-size: 16px; /* slightly larger for big screens */
+  }
+}
+
 #root {
   max-width: 900px; /* allow more horizontal room for wider screens */
   width: 100%;

@@ -24,7 +24,7 @@
   }
 
   .view {
-    display: flex;
+    font-size: 1.05rem;
     align-items: center;
     width: 100%;
 
@@ -37,7 +37,7 @@
 
       &:focus-visible {
         outline: 2px solid #0056b3;
-        outline-offset: 2px;
+        font-size: 1.35rem;
       }
     }
 
@@ -53,6 +53,21 @@
     }
 
     .edit {
+      @media (min-width: 1000px) {
+        .toggle {
+          width: 20px;
+          height: 20px;
+          margin-right: 0.85rem;
+        }
+
+        .delete-btn {
+          margin-left: 0.9rem;
+        }
+
+        .edit {
+          padding: 0.4rem 0.6rem;
+        }
+      }
       flex-grow: 1;
       font-size: 0.95rem;
       padding: 0.25rem 0.4rem;

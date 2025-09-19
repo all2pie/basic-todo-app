@@ -61,4 +61,17 @@
       cursor: not-allowed;
     }
   }
+
+  @media (min-width: 1000px) {
+    font-size: 1rem;
+    padding: 0.6rem 0.9rem;
+
+    .filters {
+      gap: 0.65rem;
+
+      button {
+        padding: 0.35rem 0.75rem;
+      }
+    }
+  }
 }
